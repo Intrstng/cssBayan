@@ -16,7 +16,7 @@ h2 {
   color: rgb(187, 125, 1);
 }
 .accordion {
-  max-width: 550px;
+  max-width: 30vw;
   margin: 0 auto;
 }
 .accordion:hover .icon {
@@ -25,12 +25,12 @@ h2 {
 .accordion__head {
   border-top: 1px solid rgba(72, 72, 72, 0.6);
   padding-top: 15px;
-  max-width: 550px;
+  max-width: 30vw;
   cursor: pointer;
 }
 .accordion__title {
   display: grid;
-  grid-template-columns: 1px 300px 25px;
+  grid-template-columns: 1px 1fr 25px;
   margin: 20px;
   color: rgba(50, 129, 4, 0.6);
   cursor: pointer;
