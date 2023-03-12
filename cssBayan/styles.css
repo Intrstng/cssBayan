@@ -47,10 +47,15 @@ h2 {
   -webkit-appearance: none;
   appearance: none;
 }
+.accordion__title:hover > .accordion__image {
+  width: 25vw;
+  height: auto;
+}
 .accordion__input:checked ~ .accordion__image {
   width: 25vw;
   height: auto;
 }
+
 .accordion__input:checked ~ .icon {
   transform: rotate(0);
   fill: rgb(255, 0, 0);
